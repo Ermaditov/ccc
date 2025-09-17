@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="603.0" style="-fx-background-color: #2D0B17;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ad1.MenuController">
+   <children>
+      <Label layoutX="245.0" layoutY="26.0" text="Главное меню" textFill="#b5882e">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="PloshPryam" layoutX="71.0" layoutY="78.0" mnemonicParsing="false" onAction="#PloshPryam1" prefHeight="46.0" prefWidth="468.0" style="-fx-background-color: #6F470E;" text="Вычислить площадь прямоугольника" textFill="#c3beb6">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Нету аккаунта? Создайте его!" />
+         </tooltip>
+      </Button>
+      <Button fx:id="Exit" layoutX="234.0" layoutY="315.0" mnemonicParsing="false" onAction="#Exit1" prefHeight="46.0" prefWidth="141.0" style="-fx-background-color: #6F470E;" text="Вернуться в окно авторизации" textAlignment="CENTER" textFill="#c3beb6" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Нету аккаунта? Создайте его!" />
+         </tooltip>
+      </Button>
+      <Button fx:id="PloshKryg" layoutX="70.0" layoutY="155.0" mnemonicParsing="false" onAction="#PloshKryg1" prefHeight="46.0" prefWidth="468.0" style="-fx-background-color: #6F470E;" text=" Вычислить площадь круга" textFill="#c3beb6">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Нету аккаунта? Создайте его!" />
+         </tooltip>
+      </Button>
+      <Button fx:id="PloshTge" layoutX="70.0" layoutY="231.0" mnemonicParsing="false" onAction="#PloshTge1" prefHeight="46.0" prefWidth="468.0" style="-fx-background-color: #6F470E;" text=" Вычислить площадь треугольника" textFill="#c3beb6">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Нету аккаунта? Создайте его!" />
+         </tooltip>
+      </Button>
+   </children>
+</AnchorPane>
